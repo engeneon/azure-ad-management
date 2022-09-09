@@ -15,7 +15,7 @@ resource "azuread_user" "users" {
   )
 
   password = format(
-    "%s%s%s!",
+    "%s%s%s#^!",
     lower(each.value.last_name),
     substr(lower(each.value.first_name), 0, 1),
     length(each.value.first_name)
