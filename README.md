@@ -8,5 +8,6 @@
 # NOTES
 
 * Tested on Terraform v1.0.4
+* azuread version = "2.28.1"
 * This is meant for Level-0 foundation deployment and management but can be used for the upper layers
 * This does not preclude management of users in AAD via the portal or from an on-prem IDP
