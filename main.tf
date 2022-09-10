@@ -1,5 +1,5 @@
 resource "random_pet" "suffix" {
-  length = 2
+  length = 4
 }
 
 # Create users
@@ -15,7 +15,7 @@ resource "azuread_user" "users" {
   )
 
   password = format(
-    "%s%s%s#^!",
+    "%s%s%s#^!1234",
     lower(each.value.last_name),
     substr(lower(each.value.first_name), 0, 1),
     length(each.value.first_name)
