@@ -2,7 +2,7 @@
 
 # Overview
 
-* Code and Configuration to manage Azure AD users and groups using IAC paradigm.
+* Code and Configuration to manage Azure AD users and groups as well as RBAC Roles and Role Assignments using IAC paradigm
 * Scope: Baseline infrastructure AAD identities required to manage the core landing zone infrastructure
 
 # NOTES
